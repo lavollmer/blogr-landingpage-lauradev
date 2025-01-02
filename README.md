@@ -46,7 +46,7 @@ This project was a software developer portfolio for myself. I included technical
 ## What I learned
 
 
-1. **_Tailwind CSS Animation_** - I explored Tailwind CSS animation features and found them exciting. I experimented with various options and settled on the pulse and bounce animations with a set duration, adding a simple yet fun element to the website.
+1. **_Typescript Programming Language_** - The goal of TypeScript is to be a static typechecker for JavaScript programs - in other words, a tool that runs before your code runs (static) and ensures that the types of the program are correct (typechecked).
 
 
 ## Continued development
@@ -54,7 +54,7 @@ This project was a software developer portfolio for myself. I included technical
 
 ## Useful resources
 
-- [Jost Google Font](https://fonts.google.com/selection) - Design called for this font in the project.
+- [TypeScript](https://www.typescriptlang.org/) - Typescript General Website
 
 ## Author
 
