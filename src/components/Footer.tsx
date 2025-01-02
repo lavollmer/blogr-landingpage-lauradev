@@ -18,6 +18,27 @@ const Footer = () => {
           <p>Integrations</p>
         </div>
       </div>
+      <div className="flex flex-col space-y-6 text-sm">
+        <div>
+          <h1 className="font-bold text-white">Company</h1>
+        </div>
+        <div className="flex flex-col left-0 space-y-2 text-grayish-blue">
+          <p>About</p>
+          <p>Team</p>
+          <p>Blog</p>
+          <p>Careers</p>
+        </div>
+      </div>
+      <div className="flex flex-col space-y-6 text-sm">
+        <div>
+          <h1 className="font-bold text-white">Connect</h1>
+        </div>
+        <div className="flex flex-col left-0 space-y-2 text-grayish-blue">
+          <p>Contact</p>
+          <p>Newsletter</p>
+          <p>LinkedIn</p>
+        </div>
+      </div>
     </div>
   );
 };
