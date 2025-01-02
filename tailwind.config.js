@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}"
+  ],
   theme: {
     extend: {
-      colors:{
+      colors: {
         "light-red": "hsl(356, 100%, 66%)",
         "very-light-red": "hsl(355, 100%, 74%)",
         "very-dark-blue": "hsl(208, 49%, 24%)",

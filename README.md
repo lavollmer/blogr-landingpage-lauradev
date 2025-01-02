@@ -42,11 +42,15 @@ This project was a software developer portfolio for myself. I included technical
 ## Built with
 
 - Typescript
+- TailwindCSS
+- Frontend Mentor
 
 ## What I learned
 
 
 1. **_Typescript Programming Language_** - The goal of TypeScript is to be a static typechecker for JavaScript programs - in other words, a tool that runs before your code runs (static) and ensures that the types of the program are correct (typechecked).
+1. **_TailwindCSS Config File_** - I began by updating the style guide in the TailwindCSS file. I found that I was receiving errors - I learned that you must keep the hsl formatting and also include it in a colors section. I had to define them in the extend object.
+1. **_React Recent Versions_** - I learned that you don't need to import React at the beginning of the file when the React version is more recent.
 
 
 ## Continued development
