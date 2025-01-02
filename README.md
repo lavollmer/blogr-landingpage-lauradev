@@ -56,6 +56,12 @@ This project was a software developer portfolio for myself. I included technical
 
 - [TypeScript](https://www.typescriptlang.org/) - Typescript General Website
 
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass?preview.text_type=custom)
+- Weights: 300, 600
+
+- Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
+- Weights: 400, 500, 700
+
 ## Author
 
 - Website - [Laura V](www.lauradeveloper.com)
