@@ -14,6 +14,10 @@ export default {
         "very-dark-bluish": "hsl(207, 13%, 34%)",
         "very-dark-black-blue": "hsl(240, 10%, 16%)",
       },
+      fontFamily: {
+        "overpass": ["overpass", "sans-serif"],
+        "ubuntu": ["ubuntu", "serif"],
+      },
     },
   },
   plugins: [],
