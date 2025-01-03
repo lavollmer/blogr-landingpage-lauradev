@@ -11,9 +11,17 @@ const Header = () => {
         <div>
           <h2>Grow your audience and build your online brand</h2>
         </div>
-        <div>
-          <button>Start for Free</button>
-          <button>Learn More</button>
+        <div className="flex flex-row justify-center text-center space-x-4">
+          <div className="flex flex-row justify-center items-center rounded-full">
+            <button className="bg-white text-very-light-red font-bold py-2 px-4 rounded-full">
+              Start for Free
+            </button>
+          </div>
+          <div className="flex flex-row justify-center items-center rounded-full">
+            <button className="bg-very-light-red text-white font-bold py-2 px-4 rounded-full">
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
     </div>
