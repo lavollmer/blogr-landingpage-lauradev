@@ -25,7 +25,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="flex flex-row justify-end space-x-6 w-full bg-very-light-red">
-        <h1 className="flex flex-row justify-center items-center">Login</h1>
+        <button className="flex flex-row justify-center items-center">Login</button>
         <div className="flex flex-row justify-center items-center bg-very-dark-red rounded-full">
           <button className="bg-white text-very-light-red font-bold py-2 px-4 rounded-full">
             Sign Up
