@@ -66,6 +66,8 @@ This project was a software developer portfolio for myself. I included technical
 - Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
 - Weights: 400, 500, 700
 
+-[Dropdown Menus TailwindCSS](https://tailwindui.com/components/application-ui/elements/dropdowns#component-f8a14da22f26a67757b19f2fe3ca00ed)
+
 ## Author
 
 - Website - [Laura V](www.lauradeveloper.com)

@@ -11,13 +11,13 @@ const NavBar = () => {
         </div>
         <div className="flex flex-row space-x-4">
           <button className="flex flex-row items-center space-x-2">
-            <Dropdown />
+            <Dropdown dropdownName={"Products"} />
           </button>
           <button className="flex flex-row items-center space-x-2">
-            <Dropdown />
+            <Dropdown dropdownName={"Products"} />
           </button>
           <button className="flex flex-row  items-center space-x-2">
-            <Dropdown />
+            <Dropdown dropdownName={"Connect"} />
           </button>
         </div>
       </div>
