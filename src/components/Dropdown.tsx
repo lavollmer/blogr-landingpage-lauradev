@@ -1,3 +1,5 @@
+import DownArrow from "../assets/icon-arrow-light.svg";
+
 const Dropdown = () => {
   return (
     <div>
@@ -11,6 +13,7 @@ const Dropdown = () => {
             aria-haspopup="true"
           >
             Product
+            <img src={DownArrow} alt="Down Arrow" />
           </button>
         </div>
         <div
