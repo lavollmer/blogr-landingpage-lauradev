@@ -1,4 +1,6 @@
 .bg-header-texture {
     background-image: url('/src/assets/bg-pattern-intro-desktop.svg');
     background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
   }

@@ -53,6 +53,11 @@ This project was a software developer portfolio for myself. I included technical
 1. **_React Recent Versions_** - I learned that you don't need to import React at the beginning of the file when the React version is more recent.
 
 
+Things I needed to work on:
+1. Gradient and overlay of the images
+2. Adding a curve to my background colors and design
+
+
 ## Continued development
 
 
