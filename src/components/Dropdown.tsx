@@ -1,6 +1,8 @@
-import DownArrow from "../assets/icon-arrow-light.svg";
+interface DropdownProps {
+  dropdownName: string;
+}
 
-const Dropdown = (dropdownName) => {
+const Dropdown: React.FC<DropdownProps> = ({ dropdownName }) => {
    
   return (
     <div>
