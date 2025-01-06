@@ -14,7 +14,7 @@ const NavBar = () => {
             <Dropdown dropdownName={"Products"} />
           </button>
           <button className="flex flex-row items-center space-x-2">
-            <Dropdown dropdownName={"Products"} />
+            <Dropdown dropdownName={"Company"} />
           </button>
           <button className="flex flex-row  items-center space-x-2">
             <Dropdown dropdownName={"Connect"} />
