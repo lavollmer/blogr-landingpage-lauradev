@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "light-red": "hsl(356, 100%, 66%)",
+        "gradient-light-red": "hsl(356, 100%, 66%)",
         "very-light-red": "hsl(355, 100%, 74%)",
         "very-dark-blue": "hsl(208, 49%, 24%)",
         white: "hsl(0, 0%, 100%)",

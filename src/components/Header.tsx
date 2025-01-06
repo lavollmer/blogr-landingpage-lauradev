@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <div className="bg-very-light-red text-white text-center">
+    <div className="bg-gradient-to-r from-very-light-red to-gradient-light-red text-white text-center">
       <NavBar />
       <div className="flex flex-col justify-center items-center p-10 space-y-4">
         <div>

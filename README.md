@@ -68,6 +68,8 @@ This project was a software developer portfolio for myself. I included technical
 
 -[Dropdown Menus TailwindCSS](https://tailwindui.com/components/application-ui/elements/dropdowns#component-f8a14da22f26a67757b19f2fe3ca00ed)
 
+-[TailwindCSS Background Gradient](https://tailwindcss.com/docs/background-image)
+
 ## Author
 
 - Website - [Laura V](www.lauradeveloper.com)
