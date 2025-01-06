@@ -3,14 +3,14 @@ import IllustrationEditorMobile from "../assets/illustration-editor-mobile.svg";
 
 const Future = () => {
   return (
-    <div className="flex flex-col text-overpass">
+    <div className="flex flex-col text-overpass z-10">
       <div className="flex flex-row justify-center text-center pt-10">
         <h1 className="flex flex-row justify-center text-very-dark-blue font-bold text-center text-2xl">
           Designed for the Future
         </h1>
       </div>
       <div className="flex flex-row space-x-4 m-10">
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 z-10">
           <div className="flex flex-col space-y-4 m-20">
             <h2 className="font-bold text-very-dark-blue text-lg">
               Introducing an extensible editor
@@ -36,13 +36,11 @@ const Future = () => {
             </p>
           </div>
         </div>
-        <div>
-          <img
-            src={IllustrationEditor}
-            alt="Editor"
-            className="h-96 w-96 hidden md:block"
-          />
-        </div>
+        <img
+          src={IllustrationEditor}
+          alt="Editor"
+          className="h-96 w-96 z-0"
+        />
       </div>
     </div>
   );
