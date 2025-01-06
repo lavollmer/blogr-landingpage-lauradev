@@ -3,15 +3,15 @@ import IllustrationEditorMobile from "../assets/illustration-editor-mobile.svg";
 
 const Future = () => {
   return (
-    <div className="flex flex-col text-overpass z-10">
+    <div className="flex flex-col text-overpass z-10 m-10">
       <div className="flex flex-row justify-center text-center pt-10">
         <h1 className="flex flex-row justify-center text-very-dark-blue font-bold text-center text-2xl">
           Designed for the Future
         </h1>
       </div>
-      <div className="flex flex-row space-x-4 m-10">
+      <div className="flex flex-row items-center justify-center space-x-4 m-10">
         <div className="flex flex-col space-y-4 z-10">
-          <div className="flex flex-col space-y-4 m-20">
+          <div className="flex flex-col space-y-4 m-10">
             <h2 className="font-bold text-very-dark-blue text-lg">
               Introducing an extensible editor
             </h2>
@@ -24,7 +24,7 @@ const Future = () => {
               change the looks of a blog.
             </p>
           </div>
-          <div className="flex flex-col space-y-4 m-20">
+          <div className="flex flex-col space-y-4 m-10">
             <h2 className="font-bold text-very-dark-blue text-lg">
               Robust content management
             </h2>
@@ -39,7 +39,7 @@ const Future = () => {
         <img
           src={IllustrationEditor}
           alt="Editor"
-          className="h-96 w-96 z-0"
+          className="size-1/2 z-0"
         />
       </div>
     </div>
