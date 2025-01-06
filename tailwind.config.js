@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}"
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -15,8 +13,12 @@ export default {
         "very-dark-black-blue": "hsl(240, 10%, 16%)",
       },
       fontFamily: {
-        "overpass": ["overpass", "sans-serif"],
-        "ubuntu": ["ubuntu", "serif"],
+        overpass: ["overpass", "sans-serif"],
+        ubuntu: ["ubuntu", "serif"],
+      },
+      backgroundImage: {
+        "header-texture": "url('/assets/bg-pattern-intro-desktops.svg')",
+        "circles-texture": "url('/assets/bg-pattern-circles.png')",
       },
     },
   },
