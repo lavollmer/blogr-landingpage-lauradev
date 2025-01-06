@@ -16,10 +16,6 @@ export default {
         overpass: ["overpass", "sans-serif"],
         ubuntu: ["ubuntu", "serif"],
       },
-      backgroundImage: {
-        "header-texture": "url('/assets/bg-pattern-intro-desktops.svg')",
-        "circles-texture": "url('/assets/bg-pattern-circles.png')",
-      },
     },
   },
   plugins: [],
