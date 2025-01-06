@@ -1,10 +1,9 @@
 import IllustrationEditor from "../assets/illustration-editor-desktop.svg";
-import IllustrationEditorMobile from "../assets/illustration-editor-mobile.svg";
 
 const Future = () => {
   return (
-    <div className="relative flex flex-col text-overpass z-10">
-      <div className="absolute z-0">
+    <div className="relative flex flex-col text-overpass z-10 w-full">
+      <div className="absolute z-0 right-0 top-0">
           <img
             src={IllustrationEditor}
             alt="Illustration Editor"
@@ -16,7 +15,7 @@ const Future = () => {
           Designed for the Future
         </h1>
       </div>
-      <div className="flex flex-row items-center justify-center space-x-4 m-10">
+      <div className="flex flex-row items-center justify-center space-x-4 m-10 z-10">
         <div className="flex flex-col space-y-4 m-10">
           <div className="flex flex-col space-y-4 m-10">
             <h2 className="font-bold text-very-dark-blue text-lg">
