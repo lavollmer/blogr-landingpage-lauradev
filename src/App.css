@@ -3,4 +3,7 @@
     background-size: 140% auto;
     background-position: center -800px;
     background-repeat: no-repeat;
+    padding: 4rem 10rem;
+    text-align: center;
+    border-bottom-left-radius: 5rem;
   }
