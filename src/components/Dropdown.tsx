@@ -40,7 +40,7 @@ const Dropdown: React.FC<DropdownProps> = ({ dropdownName }) => {
             <div className="py-1" role="none">
               <a
                 href="#"
-                className="block px-4 py-2 text-sm text-gray-700"
+                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
                 role="menuitem"
                 id="menu-item-0"
               >
@@ -48,7 +48,7 @@ const Dropdown: React.FC<DropdownProps> = ({ dropdownName }) => {
               </a>
               <a
                 href="#"
-                className="block px-4 py-2 text-sm text-gray-700"
+                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
                 role="menuitem"
                 id="menu-item-1"
               >
@@ -56,22 +56,12 @@ const Dropdown: React.FC<DropdownProps> = ({ dropdownName }) => {
               </a>
               <a
                 href="#"
-                className="block px-4 py-2 text-sm text-gray-700"
+                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
                 role="menuitem"
                 id="menu-item-2"
               >
                 LinkedIn
               </a>
-              <form method="POST" action="#" role="none">
-                <button
-                  type="submit"
-                  className="block w-full px-4 py-2 text-left text-sm text-gray-700"
-                  role="menuitem"
-                  id="menu-item-3"
-                >
-                  XXXX
-                </button>
-              </form>
             </div>
           </div>
         )}
