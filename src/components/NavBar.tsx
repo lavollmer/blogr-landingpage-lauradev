@@ -4,7 +4,7 @@ import Dropdown from "./Dropdown";
 
 const NavBar = () => {
   return (
-    <div className="flex flex-row text-white text-ubuntu bg-transparent text-sm p-6">
+    <div className="flex flex-row text-white text-ubuntu bg-transparent text-md p-6">
       <div
         className="flex flex-row space-x-10 w-full p-4"
       >
@@ -28,7 +28,7 @@ const NavBar = () => {
           Login
         </button>
         <div className="flex flex-row justify-center items-center bg-very-dark-red rounded-full">
-          <button className="bg-white text-very-light-red font-bold py-2 px-4 rounded-full">
+          <button className="bg-white text-very-light-red font-bold py-2 px-4 rounded-full focus:outline-none focus:ring hover:bg-white-500">
             Sign Up
           </button>
         </div>
