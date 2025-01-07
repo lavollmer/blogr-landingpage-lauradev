@@ -1,15 +1,10 @@
-import IllustrationEditor from "../assets/illustration-editor-desktop.svg";
+import "../App.css";
+import Editor from "../assets/illustration-editor-desktop.svg";
 
 const Future = () => {
   return (
     <div className="relative flex flex-col text-overpass z-10">
-      <div className="absolute z-0 right-0 top-0">
-        <img
-          src={IllustrationEditor}
-          alt="Illustration Editor"
-          className="size-1/2"
-        />
-      </div>
+      <div className="bg-body-editor::before"></div>
       <div className="flex flex-row justify-center text-center pt-10">
         <h1 className="flex flex-row justify-center text-very-dark-blue font-bold text-center text-3xl">
           Designed for the Future
@@ -40,6 +35,9 @@ const Future = () => {
             you’re in full control.
           </p>
         </div>
+      </div>
+      <div>
+        <img src={Editor} alt="Editor" />
       </div>
     </div>
   );
