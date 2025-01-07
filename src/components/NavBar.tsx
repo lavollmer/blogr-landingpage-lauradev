@@ -28,7 +28,7 @@ const NavBar = () => {
           Login
         </button>
         <div className="flex flex-row justify-center items-center bg-very-dark-red rounded-full">
-          <button className="bg-white text-very-light-red font-bold py-2 px-4 rounded-full focus:outline-none focus:ring hover:bg-white-500">
+          <button className="bg-transparent text-white font-bold py-2 px-4 rounded-full hover:bg-white hover:bg-opacity-20">
             Sign Up
           </button>
         </div>
