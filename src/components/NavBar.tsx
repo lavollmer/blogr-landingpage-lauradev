@@ -5,7 +5,9 @@ import Dropdown from "./Dropdown";
 const NavBar = () => {
   return (
     <div className="flex flex-row text-white text-ubuntu bg-transparent text-sm p-6">
-      <div className="flex flex-row space-x-4 w-full p-4">
+      <div
+        className="flex flex-row space-x-10 w-full p-4"
+      >
         <div>
           <img src={Logo} alt="Logo" />
         </div>
