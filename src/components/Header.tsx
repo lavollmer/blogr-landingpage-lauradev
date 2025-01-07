@@ -4,7 +4,7 @@ import "../index.css";
 const Header = () => {
   return (
     <div className="relative text-white text-center pl-20 pr-20 pt-10 rounded-b-lg">
-      <div className="absolute inset-0 bg-gradient-to-r from-gradient-light-red to-very-light-red"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-very-light-red to-gradient-light-red"></div>
       <div className="absolute inset-0 bg-header-texture"></div>
       <div className="relative z-10">
         <NavBar />

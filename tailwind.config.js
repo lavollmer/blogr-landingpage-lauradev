@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         "gradient-light-red": "hsl(356, 100%, 66%)",
-        "very-light-red": "hsl(355, 100%, 74%)",
+        "very-light-red": "hsl(13, 100%, 72%)",
         "very-dark-blue": "hsl(208, 49%, 24%)",
         white: "hsl(0, 0%, 100%)",
         "grayish-blue": "hsl(240, 2%, 79%)",
