@@ -4,13 +4,16 @@ import Editor from "../assets/illustration-editor-desktop.svg";
 const Future = () => {
   return (
     <div className="flex flex-col font-overpass z-10">
-      <div className="flex flex-row justify-center text-center pt-20">
-        <h1 className="flex flex-row justify-center text-very-dark-blue font-bold text-center text-3xl">
+      <div className="flex flex-col md:flex-row justify-center text-center md:pt-20 pt-10">
+        <h1 className="flex flex-row justify-center text-very-dark-blue font-bold text-center text-2xl md:text-3xl">
           Designed for the Future
         </h1>
       </div>
-      <div className="flex flex-row grid grid-cols-2">
-        <div className="flex flex-col space-y-4 p-20">
+      <div className="md:hidden flex flex-row justify-center p-4">
+        <img src={Editor} alt="Editor" />
+      </div>
+      <div className="flex flex-row grid grid-cols-1 md:grid-cols-2">
+        <div className="flex flex-col space-y-4 p-10 md:p-20">
           <div className="flex flex-col text-left space-y-4">
             <h2 className="font-bold text-very-dark-blue text-2xl">
               Introducing an extensible editor
@@ -36,7 +39,7 @@ const Future = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row justify-center p-20">
+        <div className="hidden flex flex-row justify-center p-20">
           <img src={Editor} alt="Editor" />
         </div>
       </div>
