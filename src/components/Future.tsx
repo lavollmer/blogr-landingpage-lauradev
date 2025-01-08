@@ -10,7 +10,7 @@ const Future = () => {
         </h1>
       </div>
       <div className="flex flex-row grid grid-cols-2">
-        <div className="flex flex-col space-y-4 p-40">
+        <div className="flex flex-col space-y-4 p-20">
           <div className="flex flex-col text-left space-y-4">
             <h2 className="font-bold text-very-dark-blue text-2xl">
               Introducing an extensible editor
@@ -36,7 +36,7 @@ const Future = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row justify-center p-40">
+        <div className="flex flex-row justify-center p-20">
           <img src={Editor} alt="Editor" />
         </div>
       </div>

@@ -9,7 +9,7 @@ const Art = () => {
       <div className="relative">
         <img src={Phones} alt="Phones" />
       </div>
-      <div className="relative flex flex-col w-1/2 h-1/2 pt-60">
+      <div className="relative flex flex-col w-1/2 h-1/2 p-40">
         <div className="flex flex-col pb-10">
           <h1 className="font-bold text-4xl">State of the Art Infrastructure</h1>
         </div>
