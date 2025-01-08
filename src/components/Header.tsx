@@ -19,12 +19,12 @@ const Header = () => {
           </div>
           <div className="flex flex-row justify-center items-center space-x-4 pt-10 font-semibold">
             <div className="flex flex-row justify-center items-center rounded-full">
-              <button className="bg-white bg-opacity-30 text-white py-2 px-4 rounded-full">
+              <button className="bg-white bg-opacity-30 text-white py-2 px-4 rounded-full hover:bg-opacity-90 hover:text-gradient-light-red">
                 Start for Free
               </button>
             </div>
             <div className="flex flex-row justify-center items-center rounded-full">
-              <button className="bg-white bg-opacity-90 text-gradient-light-red py-2 px-4 rounded-full">
+              <button className="bg-white bg-opacity-90 text-gradient-light-red py-2 px-4 rounded-full hover:bg-opacity-30 hover:text-white">
                 Learn More
               </button>
             </div>
