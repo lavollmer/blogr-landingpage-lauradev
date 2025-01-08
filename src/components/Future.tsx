@@ -3,7 +3,7 @@ import Editor from "../assets/illustration-editor-desktop.svg";
 
 const Future = () => {
   return (
-    <div className="flex flex-col text-ubuntu z-10">
+    <div className="flex flex-col font-overpass z-10">
       <div className="flex flex-row justify-center text-center pt-20">
         <h1 className="flex flex-row justify-center text-very-dark-blue font-bold text-center text-3xl">
           Designed for the Future
@@ -15,7 +15,7 @@ const Future = () => {
             <h2 className="font-bold text-very-dark-blue text-2xl">
               Introducing an extensible editor
             </h2>
-            <p className="text-md text-left text-very-dark-grayish-blue">
+            <p className="text-md text-left text-very-dark-grayish-blue font-light">
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports
               management of multiple blogs and allows easy manipulation of
@@ -28,7 +28,7 @@ const Future = () => {
             <h2 className="font-bold text-very-dark-blue text-2xl">
               Robust content management
             </h2>
-            <p className="text-md text-left text-very-dark-grayish-blue">
+            <p className="text-md text-left text-very-dark-grayish-blue font-light">
               Flexible content management enables users to easily move through
               posts. Increase the usability of your blog by adding customized
               categories, sections, format, or flow. With this functionality,

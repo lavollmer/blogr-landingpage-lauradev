@@ -3,7 +3,7 @@ import "../index.css";
 
 const Footer = () => {
   return (
-    <div className="flex flex-row justify-evenly bg-very-dark-black-blue pt-20 pb-20 text-ubuntu">
+    <div className="flex flex-row justify-evenly bg-very-dark-black-blue pt-20 pb-20 font-ubuntu">
       <div>
         <img src={Logo} alt="Blogr Logo" />
       </div>
@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
           <h1 className="font-bold text-grayish-blue">Product</h1>
         </div>
-        <div className="flex flex-col left-0 space-y-2 text-grayish-blue">
+        <div className="flex flex-col left-0 space-y-2 text-grayish-blue font-semilight">
           <p>Overview</p>
           <p>Pricing</p>
           <p>Marketplace</p>
@@ -23,7 +23,7 @@ const Footer = () => {
         <div>
           <h1 className="font-bold text-grayish-blue">Company</h1>
         </div>
-        <div className="flex flex-col left-0 space-y-2 text-grayish-blue">
+        <div className="flex flex-col left-0 space-y-2 text-grayish-blue font-semilight">
           <p>About</p>
           <p>Team</p>
           <p>Blog</p>
@@ -34,7 +34,7 @@ const Footer = () => {
         <div>
           <h1 className="font-bold text-grayish-blue">Connect</h1>
         </div>
-        <div className="flex flex-col left-0 space-y-2 text-grayish-blue">
+        <div className="flex flex-col left-0 space-y-2 text-grayish-blue font-semilight">
           <p>Contact</p>
           <p>Newsletter</p>
           <p>LinkedIn</p>
