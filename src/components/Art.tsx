@@ -1,8 +1,11 @@
 import Phones from "../assets/illustration-phones.svg";
+import "../App.css";
 
 const Art = () => {
   return (
-    <div className="flex flex-row text-white bg-very-dark-blue p-10">
+    <div className="flex flex-row text-white p-10">
+      <div className="absolute inset-0 bg-gradient-to-r from-very-dark-desaturated-blue to-very-dark-gray-blue"></div>
+      <div className="absolute inset-0 bg-header-texture"></div>
       <div>
         <img src={Phones} alt="Phones" />
       </div>

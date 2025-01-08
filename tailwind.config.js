@@ -12,6 +12,8 @@ export default {
         "very-dark-bluish": "hsl(207, 13%, 34%)",
         "very-dark-black-blue": "hsl(240, 10%, 16%)",
         "very-dark-grayish-blue": "hsl(207, 13%, 34%)",
+        "very-dark-gray-blue": "hsl(237, 17%, 21%)",
+        "very-dark-desaturated-blue": "hsl(237, 23%, 32%)",
       },
       fontFamily: {
         overpass: ["overpass", "sans-serif"],
