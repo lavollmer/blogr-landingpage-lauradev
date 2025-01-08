@@ -1,22 +1,51 @@
 import IconArrowDark from "../assets/icon-arrow-dark.svg";
+import { useState } from "react";
 
 const SideNavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpenTwo, setIsOpenTwo] = useState(false);
+  const [isOpenThree, setIsOpenThree] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleClickTwo = () => {
+    setIsOpenTwo(!isOpenTwo);
+  };
+
+  const handleClickThree = () => {
+    setIsOpenThree(!isOpenThree);
+  };
+
   return (
-    <div className="flex flex-col justify-center items-center font-overpass">
+    <div className="flex flex-col justify-center items-center font-overpass p-10">
       <div>
         <div className="flex flex-col space-y-4 font-300">
-          <button className="flex flex-row justify-center items-center space-x-2">
+          <button
+            onClick={handleClick}
+            className="flex flex-row justify-center items-center space-x-2"
+          >
             <h1>Products</h1>
             <img src={IconArrowDark} alt="Arrow" />
           </button>
-          <button className="flex flex-row justify-center items-center space-x-2">
+          {isOpen && <div>Hello</div>}
+          <button
+            onClick={handleClickTwo}
+            className="flex flex-row justify-center items-center space-x-2"
+          >
             <h1>Company</h1>
             <img src={IconArrowDark} alt="Arrow" />
           </button>
-          <button className="flex flex-row justify-center items-center space-x-2">
+          {isOpenTwo && <div>Hello</div>}
+          <button
+            onClick={handleClickThree}
+            className="flex flex-row justify-center items-center space-x-2"
+          >
             <h1>Connect</h1>
             <img src={IconArrowDark} alt="Arrow" />
           </button>
+          {isOpenThree && <div>Hello</div>}
         </div>
       </div>
       <div className="border border-black"></div>
