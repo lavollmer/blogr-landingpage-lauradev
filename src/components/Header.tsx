@@ -1,28 +1,48 @@
 import NavBar from "./NavBar";
 import SideNavBar from "./SideNavBar";
+import { useState } from "react";
 import "../index.css";
+import HamburgerIcon from "../assets/icon-hamburger.svg";
+import Logo from "../assets/logo.svg";
+import XIcon from "../assets/icon-close.svg";
 
 const Header = () => {
+  const [showSideNav, setShowSideNav] = useState(false);
+
+  const handleClickNav = () => {
+    setShowSideNav(!showSideNav);
+  };
+
   return (
-    <div className="relative text-white text-center pl-20 pr-20 pt-10 rounded-[100px] font-overpass">
+    <div className="relative text-white text-center p-10 md:pl-20 md:pr-20 md:pt-10 rounded-[100px] font-overpass">
       <div className="absolute inset-0 bg-gradient-to-r from-very-light-red to-gradient-light-red"></div>
-      <div className="absolute inset-0 bg-header-texture"></div>
+      <div className="md:absolute md:inset-0 md:bg-header-texture"></div>
       <div className="relative z-10">
-      {/* navigation components displayed depending on size of screen */}
+        {/* navigation components displayed depending on size of screen */}
         <div className="hidden md:block">
           <NavBar />
         </div>
         <div className="md:hidden">
-          <SideNavBar />
+          <div className="flex flex-row items-center justify-between">
+            <img src={Logo} alt="Logo" />
+            <button>
+              <img
+                src={HamburgerIcon}
+                alt="Hamburger Icon"
+                onClick={handleClickNav}
+              />
+            </button>
+          </div>
+          {showSideNav && <SideNavBar />}
         </div>
-        <div className="flex flex-col justify-center items-center pt-20 p-10 space-y-4 pb-40">
+        <div className="flex flex-col justify-center items-center md:pt-20 p-4 pt-10 pb-20 md:p-10 space-y-4 md:pb-40">
           <div>
-            <h1 className="flex flex-row text-6xl font-normal">
+            <h1 className="flex flex-row text-2xl md:text-6xl font-normal">
               A modern publishing platform
             </h1>
           </div>
           <div>
-            <h2 className="text-xl">
+            <h2 className="text-md md:text-xl">
               Grow your audience and build your online brand
             </h2>
           </div>

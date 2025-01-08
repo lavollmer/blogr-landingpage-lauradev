@@ -19,8 +19,8 @@ const SideNavBar = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center font-overpass p-10">
-      <div>
+    <div className="flex flex-col justify-center items-center font-overpass p-1 pt-6 bg-white text-very-dark-gray-blue">
+      <div className="flex flex-col">
         <div className="flex flex-col space-y-4 font-300">
           <button
             onClick={handleClick}
