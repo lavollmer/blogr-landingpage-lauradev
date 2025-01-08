@@ -3,9 +3,9 @@ import "../App.css";
 
 const Art = () => {
   return (
-    <div className="flex flex-row text-white p-10">
-      <div className="absolute inset-0 bg-gradient-to-r from-very-dark-desaturated-blue to-very-dark-gray-blue"></div>
-      <div className="absolute inset-0 bg-header-texture"></div>
+    <div className="relative flex flex-row text-white p-10 z-0">
+      <div className="absolute inset-0 bg-gradient-to-r from-very-dark-desaturated-blue to-very-dark-gray-blue z-10"></div>
+      <div className="absolute inset-0 bg-art-texture z-10"></div>
       <div>
         <img src={Phones} alt="Phones" />
       </div>

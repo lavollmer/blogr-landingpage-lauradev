@@ -1,16 +1,16 @@
 .bg-header-texture {
-    background-image: url('/src/assets/bg-pattern-intro-desktop.svg');
-    background-size: 140% auto;
-    background-position: center -800px;
-    background-repeat: no-repeat;
-    padding: 4rem 10rem;
-    text-align: center;
-    border-bottom-left-radius: 5rem;
-  }
+  background-image: url("/src/assets/bg-pattern-intro-desktop.svg");
+  background-size: 140% auto;
+  background-position: center -800px;
+  background-repeat: no-repeat;
+  padding: 4rem 10rem;
+  text-align: center;
+  border-bottom-left-radius: 5rem;
+}
 
-  .bg-art-texture{
-    background-image: url('/src/assets/bg-pattern-circles.svg');
-    background-size:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.bg-art-texture {
+  background-image: url("/src/assets/bg-pattern-circles.svg");
+  background-size: 60%;
+  background-position: left -300px;
+  background-repeat: no-repeat;
+}
