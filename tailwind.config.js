@@ -26,6 +26,9 @@ export default {
         semibold: 600,
         bold: 700,
       },
+      borderWidth: {
+        '0.5': '0.5px',
+      },
     },
   },
   plugins: [],

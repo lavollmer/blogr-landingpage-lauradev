@@ -20,7 +20,7 @@ const SideNavBar = () => {
 
   return (
     <div className="flex flex-col justify-center items-center font-overpass p-1 pt-6 bg-white text-very-dark-gray-blue">
-      <div className="flex flex-col">
+      <div className="flex flex-col pb-4">
         <div className="flex flex-col space-y-4 font-300">
           <button
             onClick={handleClick}
@@ -65,8 +65,8 @@ const SideNavBar = () => {
           )}
         </div>
       </div>
-      <div className="border border-black"></div>
-      <div className="flex flex-col space-y-4 p-10">
+      <hr className="border-t-0.5 border-black w-1/2"/>
+      <div className="flex flex-col space-y-4 pt-4 p-6">
         <div className="flex flex-row justify-center items-center ">
           <button className="flex flex-row justify-center items-center text-very-dark-blue">
             Login
