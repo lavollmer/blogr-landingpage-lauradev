@@ -19,6 +19,13 @@ export default {
         overpass: ["overpass", "sans-serif"],
         ubuntu: ["ubuntu", "serif"],
       },
+      fontWeight: {
+        light: 300,
+        semilight: 400,
+        normal: 500,
+        semibold: 600,
+        bold: 700,
+      },
     },
   },
   plugins: [],

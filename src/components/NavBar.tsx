@@ -4,14 +4,14 @@ import Dropdown from "./Dropdown";
 
 const NavBar = () => {
   return (
-    <div className="flex flex-row text-white text-ubuntu bg-transparent text-md p-6">
+    <div className="flex flex-row text-white text-ubuntu bg-transparent text-md p-6 font-overpass">
       <div
         className="flex flex-row space-x-10 w-full p-4"
       >
         <div>
           <img src={Logo} alt="Logo" />
         </div>
-        <div className="flex flex-row space-x-4">
+        <div className="flex flex-row space-x-4 font-300">
           <button className="flex flex-row items-center space-x-2">
             <Dropdown dropdownName={"Products"} />
           </button>
