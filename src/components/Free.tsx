@@ -2,11 +2,11 @@ import Laptop from "../assets/illustration-laptop-desktop.svg";
 
 const Free = () => {
   return (
-    <div className="flex flex-row grid grid-cols-2">
+    <div className="flex flex-row grid grid-cols-2 p-10 text-ubuntu">
       <div>
         <img src={Laptop} alt="laptop" />
       </div>
-      <div className="flex flex-col space-y-4 pt-40">
+      <div className="flex flex-col space-y-4 p-20">
         <div className="flex flex-col space-y-4 p-10">
           <h1 className="font-bold text-very-dark-blue text-2xl">
             Free, open, simple
