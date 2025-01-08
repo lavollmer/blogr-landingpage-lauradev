@@ -3,18 +3,18 @@ import "../App.css";
 
 const Art = () => {
   return (
-    <div className="relative flex flex-row text-white p-10 z-0">
-      <div className="absolute inset-0 bg-gradient-to-r from-very-dark-desaturated-blue to-very-dark-gray-blue z-10"></div>
-      <div className="absolute inset-0 bg-art-texture z-10"></div>
-      <div>
+    <div className="relative flex flex-row text-white p-10">
+      <div className="absolute inset-0 bg-gradient-to-r from-very-dark-desaturated-blue to-very-dark-gray-blue"></div>
+      <div className="absolute inset-0 bg-art-texture"></div>
+      <div className="relative">
         <img src={Phones} alt="Phones" />
       </div>
-      <div className="flex flex-col justify-center p-10">
-        <div>
-          <h1 className="font-bold text-2xl">State of the Art Infrastructure</h1>
+      <div className="relative flex flex-col w-1/2 h-1/2 pt-60">
+        <div className="flex flex-col pb-10">
+          <h1 className="font-bold text-4xl">State of the Art Infrastructure</h1>
         </div>
         <div>
-          <p className="text-sm text-left">
+          <p className="text-md text-left text-white">
             With reliability and speed in mind, worldwide data centers provide
             the backbone for ultra-fast connectivity. This ensures your site
             will load instantly no matter where your readers are, keeping your
