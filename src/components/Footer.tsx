@@ -3,7 +3,7 @@ import "../index.css";
 
 const Footer = () => {
   return (
-    <div className="flex flex-row justify-evenly bg-very-dark-black-blue pt-10 text-ubuntu">
+    <div className="flex flex-row justify-evenly bg-very-dark-black-blue pt-20 pb-20 text-ubuntu">
       <div>
         <img src={Logo} alt="Blogr Logo" />
       </div>
