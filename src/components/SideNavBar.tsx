@@ -29,7 +29,13 @@ const SideNavBar = () => {
             <h1>Products</h1>
             <img src={IconArrowDark} alt="Arrow" />
           </button>
-          {isOpen && <div>Hello</div>}
+          {isOpen && (
+            <div className="flex flex-col justify-center items-center bg-grayish-blue text-very-dark-gray-blue p-1 space-y-2">
+              <p>Offerings</p>
+              <p>Services</p>
+              <p>Items</p>
+            </div>
+          )}
           <button
             onClick={handleClickTwo}
             className="flex flex-row justify-center items-center space-x-2"
@@ -37,7 +43,12 @@ const SideNavBar = () => {
             <h1>Company</h1>
             <img src={IconArrowDark} alt="Arrow" />
           </button>
-          {isOpenTwo && <div>Hello</div>}
+          {isOpenTwo && (
+            <div className="flex flex-col justify-center items-center bg-grayish-blue text-very-dark-gray-blue p-1 space-y-2">
+              <p>About Us</p>
+              <p>Mission</p>
+            </div>
+          )}
           <button
             onClick={handleClickThree}
             className="flex flex-row justify-center items-center space-x-2"
@@ -45,7 +56,13 @@ const SideNavBar = () => {
             <h1>Connect</h1>
             <img src={IconArrowDark} alt="Arrow" />
           </button>
-          {isOpenThree && <div>Hello</div>}
+          {isOpenThree && (
+            <div className="flex flex-col justify-center items-center bg-grayish-blue text-very-dark-gray-blue p-1 space-y-2">
+              <p>Contact</p>
+              <p>Newsletter</p>
+              <p>LinkedIn</p>
+            </div>
+          )}
         </div>
       </div>
       <div className="border border-black"></div>
