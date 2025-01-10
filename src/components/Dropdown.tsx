@@ -8,10 +8,20 @@ interface DropdownProps {
 
 const Dropdown: React.FC<DropdownProps> = ({ dropdownName }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpenTwo, setIsOpenTwo] = useState(false);
+  const [isOpenThree, setIsOpenThree] = useState(false);
 
   //change the toggleDropdown with useState and setISOpen
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleClickTwo = () => {
+    setIsOpenTwo(!isOpenTwo);
+  };
+
+  const handleClickThree = () => {
+    setIsOpenThree(!isOpenThree);
   };
 
   return (
@@ -31,6 +41,68 @@ const Dropdown: React.FC<DropdownProps> = ({ dropdownName }) => {
           </button>
         </div>
         {isOpen && (
+          <div
+            className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white focus:outline-none"
+            role="menu"
+            aria-orientation="vertical"
+            aria-labelledby="menu-button"
+          >
+            <div className="py-1" role="none">
+              <a
+                href="#"
+                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
+                role="menuitem"
+                id="menu-item-0"
+              >
+                Offerings
+              </a>
+              <a
+                href="#"
+                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
+                role="menuitem"
+                id="menu-item-1"
+              >
+                Services
+              </a>
+              <a
+                href="#"
+                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
+                role="menuitem"
+                id="menu-item-2"
+              >
+                Items
+              </a>
+            </div>
+          </div>
+        )}
+        {isOpenTwo && (
+          <div
+            className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white focus:outline-none"
+            role="menu"
+            aria-orientation="vertical"
+            aria-labelledby="menu-button"
+          >
+            <div className="py-1" role="none">
+              <a
+                href="#"
+                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
+                role="menuitem"
+                id="menu-item-0"
+              >
+                About Us
+              </a>
+              <a
+                href="#"
+                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
+                role="menuitem"
+                id="menu-item-1"
+              >
+                Mission
+              </a>
+            </div>
+          </div>
+        )}
+        {isOpenThree && (
           <div
             className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white focus:outline-none"
             role="menu"
