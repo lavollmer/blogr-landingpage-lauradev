@@ -1,42 +1,33 @@
 import { useState } from "react";
 import DownArrow from "../assets/icon-arrow-light.svg";
 
+interface DropdownProps {
+  dropdownName: string;
+}
 
-
-const Dropdown = () => {
+const Dropdown: React.FC<DropdownProps> = ({ dropdownName }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isOpenTwo, setIsOpenTwo] = useState(false);
-  const [isOpenThree, setIsOpenThree] = useState(false);
 
   //change the toggleDropdown with useState and setISOpen
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleClickTwo = () => {
-    setIsOpenTwo(!isOpenTwo);
-  };
-
-  const handleClickThree = () => {
-    setIsOpenThree(!isOpenThree);
-  };
-
   return (
     <div>
-      <div className="flex flex-row relative inline-block text-left">
-        <div className="flex flex-row">
-          <button
-            type="button"
-            className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-transparent px-3 py-2 text-md font-semibold text-white"
-            id="menu-button"
-            aria-expanded={isOpen}
-            aria-haspopup="true"
-            onClick={toggleDropdown}
-          >
-            Product
-            <img src={DownArrow} alt="Down Arrow" />
-          </button>
-        </div>
+      <div className="relative inline-block text-left">
+        <button
+          type="button"
+          className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-transparent px-3 py-2 text-md font-semibold text-white"
+          id="menu-button"
+          aria-expanded={isOpen}
+          aria-haspopup="true"
+          onClick={toggleDropdown}
+        >
+          {dropdownName}
+          <img src={DownArrow} alt="Down Arrow" />
+        </button>
+
         {isOpen && (
           <div
             className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white focus:outline-none"
@@ -68,94 +59,6 @@ const Dropdown = () => {
                 id="menu-item-2"
               >
                 Items
-              </a>
-            </div>
-          </div>
-        )}
-        <div className="flex flex-row">
-          <button
-            type="button"
-            className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-transparent px-3 py-2 text-md font-semibold text-white"
-            id="menu-button"
-            aria-expanded={isOpen}
-            aria-haspopup="true"
-            onClick={handleClickTwo}
-          >
-            Company
-            <img src={DownArrow} alt="Down Arrow" />
-          </button>
-        </div>
-        {isOpenTwo && (
-          <div
-            className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white focus:outline-none"
-            role="menu"
-            aria-orientation="vertical"
-            aria-labelledby="menu-button"
-          >
-            <div className="py-1" role="none">
-              <a
-                href="#"
-                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
-                role="menuitem"
-                id="menu-item-0"
-              >
-                About Us
-              </a>
-              <a
-                href="#"
-                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
-                role="menuitem"
-                id="menu-item-1"
-              >
-                Mission
-              </a>
-            </div>
-          </div>
-        )}
-        <div className="flex flex-row">
-          <button
-            type="button"
-            className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-transparent px-3 py-2 text-md font-semibold text-white"
-            id="menu-button"
-            aria-expanded={isOpen}
-            aria-haspopup="true"
-            onClick={handleClickThree}
-          >
-            Connect
-            <img src={DownArrow} alt="Down Arrow" />
-          </button>
-        </div>
-        {isOpenThree && (
-          <div
-            className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white focus:outline-none"
-            role="menu"
-            aria-orientation="vertical"
-            aria-labelledby="menu-button"
-          >
-            <div className="py-1" role="none">
-              <a
-                href="#"
-                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
-                role="menuitem"
-                id="menu-item-0"
-              >
-                Contact
-              </a>
-              <a
-                href="#"
-                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
-                role="menuitem"
-                id="menu-item-1"
-              >
-                Newsletter
-              </a>
-              <a
-                href="#"
-                className="block px-4 py-2 text-sm text-gray-700 hover:font-bold"
-                role="menuitem"
-                id="menu-item-2"
-              >
-                LinkedIn
               </a>
             </div>
           </div>

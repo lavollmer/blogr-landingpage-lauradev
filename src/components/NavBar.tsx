@@ -9,11 +9,13 @@ const NavBar = () => {
         <div>
           <img src={Logo} alt="Logo" />
         </div>
-        <div className="flex flex-row space-x-4 font-300">
+        <nav className="flex flex-row space-x-4 font-300">
           <button className="flex flex-row items-center space-x-2">
-            <Dropdown />
+            <Dropdown dropdownName="Product"/>
+            <Dropdown dropdownName="Company"/>
+            <Dropdown dropdownName="Connect"/>
           </button>
-        </div>
+        </nav>
       </div>
       <div className="flex flex-row justify-end space-x-6 w-full bg-transparent">
         <div className="flex flex-row justify-center items-center ">
