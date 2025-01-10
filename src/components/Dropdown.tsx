@@ -83,6 +83,19 @@ const Dropdown: React.FC<DropdownProps> = ({
             </div>
           </div>
         )}
+        <div className="flex flex-row">
+          <button
+            type="button"
+            className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-transparent px-3 py-2 text-md font-semibold text-white"
+            id="menu-button"
+            aria-expanded={isOpen}
+            aria-haspopup="true"
+            onClick={handleClickTwo}
+          >
+            {dropdownName}
+            <img src={DownArrow} alt="Down Arrow" />
+          </button>
+        </div>
         {isOpenTwo && (
           <div
             className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white focus:outline-none"
@@ -110,6 +123,19 @@ const Dropdown: React.FC<DropdownProps> = ({
             </div>
           </div>
         )}
+        <div className="flex flex-row">
+          <button
+            type="button"
+            className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-transparent px-3 py-2 text-md font-semibold text-white"
+            id="menu-button"
+            aria-expanded={isOpen}
+            aria-haspopup="true"
+            onClick={handleClickThree}
+          >
+            {dropdownName}
+            <img src={DownArrow} alt="Down Arrow" />
+          </button>
+        </div>
         {isOpenThree && (
           <div
             className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white focus:outline-none"
