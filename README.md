@@ -48,7 +48,7 @@ Your users should be able to:
 ## Links
 
 - Live Site URL: [Blogr Landing Page Website Laura Dev](https://blogr-landingpage-lauradev.netlify.app/)
-- Frontend Mentor URL Solution: [Frontend Mentor Laura Dev Solution]()
+- Frontend Mentor URL Solution: [Frontend Mentor Laura Dev Solution](https://www.frontendmentor.io/solutions/responsive-blogr-landing-page-tailwindcss-typescript-JFd1ifi0_D)
 
 ## My Process
 
