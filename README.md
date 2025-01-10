@@ -1,6 +1,6 @@
 # Blogr Landing Page Website Laura Dev
 
-This project involved working on a solo project Blogr landing page with Typescript.
+This project involved working on a solo project Blogr landing page with Typescript and TailwindCSS. 
 
 ## Table of contents
 
@@ -16,7 +16,12 @@ This project involved working on a solo project Blogr landing page with Typescri
 
 ## Overview
 
-This project was a software developer portfolio for myself. I included technical skills, latest projects, education, continous learning section, about section and contact information.
+Challenge: "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu."
+
+Your users should be able to:
+
+View the optimal layout for the site depending on their device's screen size
+See hover states for all interactive elements on the page
 
 ## Screenshots
 
