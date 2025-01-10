@@ -1,6 +1,6 @@
 # Blogr Landing Page Website Laura Dev
 
-This project involved working on a solo project Blogr landing page with Typescript and TailwindCSS. 
+This solo project Blogr landing page was created using Typescript and TailwindCSS. The Blogr landing page is a generic landing page that a company would use to display it's products. It has desktop and mobile responsiveness with finished design details.
 
 ## Table of contents
 
@@ -48,6 +48,7 @@ Your users should be able to:
 ## Links
 
 - Live Site URL: [Blogr Landing Page Website Laura Dev](https://blogr-landingpage-lauradev.netlify.app/)
+- Frontend Mentor URL Solution: [Frontend Mentor Laura Dev Solution]()
 
 ## My Process
 
@@ -55,7 +56,7 @@ I began my process on the Blogr Landing Page by reviewing the design materials a
 
 To begin my project, I started my reviewing the index html file by updating the title and icon in the website tab. From there, I worked on creating the components I would use to create the website. I structured the layout in a way that there was a Header, Body and Footer. The Header was the most complex in that I used that component to import reusable commponents and mobile vs desktop versions. After determining the structure of the website, I started by adding content into each section as a way to review the changes as I completed them. 
 
-The navigation bar and side navigation bar was the most challenging of the project as it required more understanding of interactive pieces on the website. I was able to create a general navigation bar for the desktop version using a dropdown functionality. Additionally, I added the sign up and login buttons that have hover state functionality for the end user. I worked my way down the design file page by creating the main page content and buttons. Then I started on the body component creating three separate distinct components for the body based on section. After all the sections had a general design and content added, I started again from the top of the website to refine the pages with specific details such as color gradient, image resizing, and mobile version responsiveness.
+The navigation bar and side navigation bar were the most challenging parts of the project as it required more understanding of interactive pieces on the website. I was able to create a general navigation bar for the desktop version using a dropdown functionality. Additionally, I added the sign up and login buttons that have hover state functionality for the end user. I worked my way down the design file page by creating the main page content and buttons. Then I started on the body component creating three separate distinct components for the body based on section. After all the sections had a general design and content added, I started again from the top of the website to refine the pages with specific details such as color gradient, image resizing, and mobile version responsiveness.
 
 I went through the website and added the specific functionalities requested in the design file. I fine tuned the hover states for the buttons. I worked on reformatting the navigation bar and footer with padding and margins. I worked on the side navigation bar for mobile responsiveness. Once I felt complete with the desktop version, I went through and added sizing parameters for some of the TailwindCSS styling components to make it mobile responsiveness. I added the additional images that were mobile specific and swapped them out at the mobile breakpoints. Furthermore, I went throught the content and text to update to the specific Google Font requests and font weight sizes for each section. I was able to debug most of the issues with some design requests I was unable to finish.
 
@@ -73,7 +74,7 @@ The final touches involved updating the README file, creating a Netlify website,
 
 I reinforced and learned a lot of new things during this project. Some of things that were more relevant:
 
-1. **_Typescript Programming Language_** - The goal of TypeScript is to be a static typechecker for JavaScript programs - in other words, a tool that runs before your code runs (static) and ensures that the types of the program are correct (typechecked).
+1. **_Typescript Programming Language_** - This was first project using Typescript. I was able to learn more about Typescript by reviewing documentation and reading. I will continue to build on my Typescript knowledge.
 2. **_TailwindCSS Config File_** - I began by updating the style guide in the TailwindCSS file. I found that I was receiving errors - I learned that you must keep the hsl formatting and also include it in a colors section. I had to define them in the extend object.
 3. **_React Recent Versions_** - I learned that you don't need to import React at the beginning of the file when the React version is more recent.
 4.**_Gradient Colors_** - I added a gradient to some of the backgrounds of each component and found to use the TailwindCSS gradient feature to be useful.
