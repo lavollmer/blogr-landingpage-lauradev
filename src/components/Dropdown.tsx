@@ -3,18 +3,12 @@ import DownArrow from "../assets/icon-arrow-light.svg";
 
 //defined the DropdownProps interrface with a string dropdownName
 interface DropdownProps {
-  dropdownName: string;
   tagOne: string;
   tagTwo: string;
   tagThree: string;
 }
 
-const Dropdown: React.FC<DropdownProps> = ({
-  dropdownName,
-  tagOne,
-  tagTwo,
-  tagThree,
-}) => {
+const Dropdown: React.FC<DropdownProps> = ({ tagOne, tagTwo, tagThree }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenTwo, setIsOpenTwo] = useState(false);
   const [isOpenThree, setIsOpenThree] = useState(false);
@@ -44,7 +38,7 @@ const Dropdown: React.FC<DropdownProps> = ({
             aria-haspopup="true"
             onClick={toggleDropdown}
           >
-            {dropdownName}
+            Product
             <img src={DownArrow} alt="Down Arrow" />
           </button>
         </div>
@@ -92,7 +86,7 @@ const Dropdown: React.FC<DropdownProps> = ({
             aria-haspopup="true"
             onClick={handleClickTwo}
           >
-            {dropdownName}
+            Company
             <img src={DownArrow} alt="Down Arrow" />
           </button>
         </div>
@@ -132,7 +126,7 @@ const Dropdown: React.FC<DropdownProps> = ({
             aria-haspopup="true"
             onClick={handleClickThree}
           >
-            {dropdownName}
+            Connect
             <img src={DownArrow} alt="Down Arrow" />
           </button>
         </div>
