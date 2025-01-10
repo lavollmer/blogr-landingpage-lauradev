@@ -14,3 +14,27 @@
   background-position: left -300px;
   background-repeat: no-repeat;
 }
+
+.bg-header-mobile {
+  position: relative;
+}
+
+.bg-header-mobile::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/src/assets/bg-pattern-intro-mobile.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .bg-header-mobile::before {
+    display: none;
+  }
+}

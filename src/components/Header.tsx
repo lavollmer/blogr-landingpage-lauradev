@@ -5,6 +5,7 @@ import "../index.css";
 import HamburgerIcon from "../assets/icon-hamburger.svg";
 import Logo from "../assets/logo.svg";
 import XIcon from "../assets/icon-close.svg";
+import backgroundImageMobile from "../assets/bg-pattern-intro-mobile.svg";
 
 const Header = () => {
   const [showSideNav, setShowSideNav] = useState(false);
@@ -14,9 +15,10 @@ const Header = () => {
   };
 
   return (
-    <div className="relative text-white text-center p-10 md:pl-20 md:pr-20 md:pt-10 rounded-[100px] font-overpass">
+    <div className="relative text-white text-center p-10 md:pl-20 md:pr-20 md:pt-10 rounded-[100px] font-overpass z-10">
       <div className="absolute inset-0 bg-gradient-to-r from-very-light-red to-gradient-light-red"></div>
       <div className="md:absolute md:inset-0 bg-header-texture"></div>
+      <img src={backgroundImageMobile} alt="Background" className="block md:hidden z-0" />
       <div className="relative z-10">
         {/* navigation components displayed depending on size of screen */}
         <div className="hidden md:block">
