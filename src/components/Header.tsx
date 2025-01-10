@@ -25,11 +25,11 @@ const Header = () => {
         <div className="md:hidden">
           <div className="flex flex-row items-center justify-between">
             <img src={Logo} alt="Logo" />
-            <button>
+            <button onClick={handleClickNav}>
               <img
-                src={HamburgerIcon}
+                src={showSideNav ? XIcon : HamburgerIcon}
                 alt="Hamburger Icon"
-                onClick={handleClickNav}
+                
               />
             </button>
           </div>

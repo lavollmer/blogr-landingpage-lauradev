@@ -1,10 +1,12 @@
 import Laptop from "../assets/illustration-laptop-desktop.svg";
+import LaptopMobile from "../assets/illustration-laptop-mobile.svg";
 
 const Free = () => {
   return (
     <div className="flex flex-col items-center justify-center md:flex-row grid grid-cols-1 md:grid-cols-2 p-4 md:p-10 font-overpass">
       <div>
-        <img src={Laptop} alt="laptop" />
+        <img src={Laptop} alt="laptop" className="hidden md:block"/>
+        <img src={LaptopMobile} alt="laptop-mobile" className="block md:hidden" />
       </div>
       <div className="flex flex-col space-y-4 p-6 md:p-20">
         <div className="flex flex-col space-y-4 p-10">

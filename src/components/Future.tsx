@@ -1,5 +1,6 @@
 import "../App.css";
 import Editor from "../assets/illustration-editor-desktop.svg"
+import EditorMobile from "../assets/illustration-editor-mobile.svg"
 
 const Future = () => {
   return (
@@ -9,8 +10,8 @@ const Future = () => {
           Designed for the Future
         </h1>
       </div>
-      <div className="md:hidden flex flex-row justify-center p-4">
-        <img src={Editor} alt="Editor" />
+      <div className="block md:hidden flex flex-row justify-center p-4">
+        <img src={EditorMobile} alt="Mobile Version of Editor" />
       </div>
       <div className="flex flex-row grid grid-cols-1 md:grid-cols-2">
         <div className="flex flex-col space-y-4 p-10 md:p-20">
@@ -39,7 +40,7 @@ const Future = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row justify-center p-20">
+        <div className="hidden md:block flex flex-row justify-center p-20">
           <img src={Editor} alt="Editor" />
         </div>
       </div>
