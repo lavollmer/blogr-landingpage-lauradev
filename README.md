@@ -29,17 +29,26 @@ See hover states for all interactive elements on the page
 
 ![Desktop Landing Page](./src/assets/DesktopLanding.png)
 
+<p style="font-size:20px;">Desktop Version Body Component:</p>
 
-<p style="font-size:20px;">Mobile Version:</p>
+![Desktop Body Component](./src/assets/BlogrDesktopBody.png)
 
+<p style="font-size:20px;">Desktop Version Footer Component:</p>
 
-<p style="font-size:20px;">Mobile Version Dark Mode:</p>
+![Desktop Body Component](./src/assets/BlogrDesktopFooter.png)
 
+<p style="font-size:20px;">Mobile Version Landing Page:</p>
+
+![Mobile Landing Page Component](./src/assets/BlogrMobileLandingPage.png)
+
+<p style="font-size:20px;">Mobile Version Side Navigation Bar:</p>
+
+![Mobile Landing Page Component](./src/assets/BlogrMobileSideNavBar.png)
 
 
 ## Links
 
-- Live Site URL: [Blogr Landing Page Website Laura Dev]()
+- Live Site URL: [Blogr Landing Page Website Laura Dev](https://blogr-landingpage-lauradev.netlify.app/)
 
 ## My Process
 
@@ -48,7 +57,7 @@ See hover states for all interactive elements on the page
 
 - Typescript
 - TailwindCSS
-- Frontend Mentor
+- ReactJS
 
 ## What I learned
 
