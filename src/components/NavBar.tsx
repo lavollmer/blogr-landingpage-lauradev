@@ -11,25 +11,7 @@ const NavBar = () => {
         </div>
         <div className="flex flex-row space-x-4 font-300">
           <button className="flex flex-row items-center space-x-2">
-            <Dropdown
-              tagOne={"Offerings"}
-              tagTwo={"Services"}
-              tagThree={"Items"}
-            />
-          </button>
-          <button className="flex flex-row items-center space-x-2">
-            <Dropdown
-              tagOne={"About Us"}
-              tagTwo={"Mission"}
-              tagThree={"Purpose"}
-            />
-          </button>
-          <button className="flex flex-row  items-center space-x-2">
-            <Dropdown
-              tagOne={"LinkedIn"}
-              tagTwo={"Newsletter"}
-              tagThree={"Blog"}
-            />
+            <Dropdown />
           </button>
         </div>
       </div>

@@ -1,14 +1,9 @@
 import { useState } from "react";
 import DownArrow from "../assets/icon-arrow-light.svg";
 
-//defined the DropdownProps interrface with a string dropdownName
-interface DropdownProps {
-  tagOne: string;
-  tagTwo: string;
-  tagThree: string;
-}
 
-const Dropdown: React.FC<DropdownProps> = ({ tagOne, tagTwo, tagThree }) => {
+
+const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenTwo, setIsOpenTwo] = useState(false);
   const [isOpenThree, setIsOpenThree] = useState(false);
@@ -28,7 +23,7 @@ const Dropdown: React.FC<DropdownProps> = ({ tagOne, tagTwo, tagThree }) => {
 
   return (
     <div>
-      <div className="relative inline-block text-left">
+      <div className="flex flex-row relative inline-block text-left">
         <div className="flex flex-row">
           <button
             type="button"
