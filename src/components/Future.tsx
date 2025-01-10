@@ -1,5 +1,5 @@
 import "../App.css";
-import Editor from "../assets/illustration-editor-desktop.svg";
+import Editor from "../assets/illustration-editor-desktop.svg"
 
 const Future = () => {
   return (
@@ -39,7 +39,7 @@ const Future = () => {
             </p>
           </div>
         </div>
-        <div className="hidden flex flex-row justify-center p-20">
+        <div className="flex flex-row justify-center p-20">
           <img src={Editor} alt="Editor" />
         </div>
       </div>

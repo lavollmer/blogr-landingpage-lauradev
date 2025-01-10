@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div className="relative text-white text-center p-10 md:pl-20 md:pr-20 md:pt-10 rounded-[100px] font-overpass">
       <div className="absolute inset-0 bg-gradient-to-r from-very-light-red to-gradient-light-red"></div>
-      <div className="md:absolute md:inset-0 md:bg-header-texture"></div>
+      <div className="md:absolute md:inset-0 bg-header-texture"></div>
       <div className="relative z-10">
         {/* navigation components displayed depending on size of screen */}
         <div className="hidden md:block">
